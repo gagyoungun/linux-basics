@@ -1,5 +1,6 @@
 #!/bin/sh
-/etc/paswwd
-testuser1
+
+adduser testuser1
+tail -1 /etc/passwd
 
 
